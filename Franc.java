@@ -8,7 +8,7 @@ class Franc extends Money {
     return new Franc(amount * multiplier);
   }
   public boolean equals(Object object) {
-    Money Franc = (Money) object;
-    return amount == Franc.amount;
+    Money money = (Money) object;
+    return amount == money.amount;
   }
 }
